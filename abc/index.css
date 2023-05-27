@@ -1,0 +1,61 @@
+body{
+    background-color: blanchedalmond;
+    margin: auto;
+    height: 100%;
+}
+
+body #outerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body #outer-div #inner-div{
+    background-color: black;
+    height: 350px;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+
+body #outer-div #inner-div #header{
+    text-align: center;
+    color: white;
+    
+}
+
+body #outer-div #inner-div .user{
+    margin-left: 65px;
+    margin-top: 15px;
+       
+}
+
+body #outer-div #inner-div .user input{
+    width: 70%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    border: solid rgb(14, 71, 136);
+   
+}
+
+body #outer-div #inner-div .para{
+    text-align: center;
+    color: white;
+}
+
+body #outer-div #inner-div .login{
+    text-align: center;
+}
+
+body #outer-div #inner-div .login input{
+    width: 30%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: solid rgb(50, 112, 50);
+}

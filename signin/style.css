@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    margin: auto;
+    height: 100%;
+}
+
+body #outer-div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+body #outer-div #inner-div{
+    background-color: azure;
+    margin-top: 150px;
+    width: 22%;
+    height: 330px;
+    text-align: center;
+    border-radius: 12px;
+    border: black double;
+}
+
+body #outer-div #inner-div .value input{
+    margin-top: 6px;
+    width: 80%;
+    text-align:left ;
+}
+
+body #outer-div #inner-div .content input{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    width: 80%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+body #outer-div #inner-div .value input{
+    text-align: center;
+    margin-top: 10px;
+}
+
+body #outer-div #inner-div .para{
+    padding-right: 110px;
+    color: blue;
+    padding-bottom: 120px;
+}
+

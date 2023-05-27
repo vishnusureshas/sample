@@ -1,0 +1,23 @@
+body{
+    background-color: blueviolet;
+    margin: auto;
+    height: 100%;
+}
+
+body #outer-div{
+    display: flex;
+    justify-content: center;
+
+}
+body #outer-div #inner-div{
+    margin-top: 200px;
+
+}
+body #outer-div #inner-div .value input{
+    margin-bottom: 10px;
+}
+
+body #outer-div #inner-div .value1 input{
+    margin-bottom: 10px;
+    text-align: center;
+}

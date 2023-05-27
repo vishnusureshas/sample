@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="outer-div">
+        
+        <div id="inner-div">
+            
+            <div class="content">
+                <h4 class="user">Username</h4>
+                <input type="text" id="empUser" placeholder="Enter Username">
+
+            </div>
+
+            <div class="content">
+                <h4 class="user">Passsword</h4>
+                <input type="text" id="empPass"placeholder="Enter Password">
+
+            </div>
+
+            <div class="submit">
+                <input type="button" value="Login" onclick="checkin()">
+            </div>
+            
+
+            <div class="remem">
+                <label>Remember me</label>
+                <input type="checkbox">
+                <input type="button" value="Cancel">
+                
+                <a href="password" class="Forgot">password?</a>
+                
+           
+
+            </div>
+
+           
+             
+        </div>
+
+    </div>
+    <script>
+        function checkin(){
+            var employee={
+                Username:empUser.value,
+                Password:empPass.value
+            }
+            localStorage.setItem('employee',JSON.stringify(employee))
+            window.location="details.html"
+        }
+    </script>
+    
+</body>
+</html>

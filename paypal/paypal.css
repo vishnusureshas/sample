@@ -1,0 +1,58 @@
+body{
+    background-color:beige;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+body #outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #outer-div #inner-div{
+    background-color:white;
+    height: 350px;
+    width: 350px;
+    margin-top: 150px;
+}
+
+body #outer-div #inner-div #header{
+    text-align: center;
+    color: rgb(41, 41, 141);
+}
+
+body #outer-div #inner-div .content input{
+    width: 80%;
+    height: 20px;
+    margin-left: 30px;
+}
+
+body #outer-div #inner-div .content1 input{
+    width:80%;
+    height: 23px;
+    margin-left:30px ;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(49, 49, 121);
+    color: white;
+}
+
+body #outer-div #inner-div .para{
+    text-align: center;
+}
+
+body #outer-div #inner-div .login input{
+    width: 80%;
+    height: 20px;
+    margin-left:30px;
+    text-align: center;
+    background-color:silver;
+    color: black;
+}
+
+body #outer-div #inner-div .language{
+    margin-left: 30px;
+    margin-top: 35px;
+}

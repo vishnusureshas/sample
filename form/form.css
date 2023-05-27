@@ -1,0 +1,54 @@
+body{
+    background-color: blueviolet;
+    margin: auto;
+    height: 100%;
+}
+
+body #outer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body #outer-div #inner-div{
+    background-color: white;
+    width: 25%;
+    height: 290px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+body #outer-div #inner-div #header{
+    background-color: rgb(34, 10, 56);
+    color: white;
+    padding-top: 5px;
+}
+
+body #outer-div #inner-div .name input{
+    width: 70%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body #outer-div #inner-div .Submit{
+    float: left;
+}
+
+body #outer-div #inner-div .Submit input{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    background-color: rgb(34, 10, 56);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body #outer-div #inner-div .para{
+    margin-left: 60px;
+    margin-top: 35px;
+    
+}
+
+

@@ -1,0 +1,39 @@
+body{
+    background-color:beige;
+    margin: auto;
+    height: 100%;
+}
+body #outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #outer-div #inner-div{
+    background-color:white;
+    width: 22%;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+    border: black double;
+}
+
+body #outer-div #inner-div .content{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+body #outer-div #inner-div .content1 input{
+    width: 39%;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+}
+
+body #outer-div #inner-div .content2 input{
+    width: 39%;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 12px;
+    margin-top: 8px;
+}

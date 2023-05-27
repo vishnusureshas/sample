@@ -1,0 +1,38 @@
+body{
+    background-color:beige;
+    margin: auto;
+    height: 100%;
+}
+body #outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body #outer-div #inner-div{
+    background-color: aliceblue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 220px;
+    border-radius: 20px;
+    border: 2px dotted orange;
+
+}
+body #outer-div #inner-div #header h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+body #outer-div #inner-div #body .input1{
+    margin-bottom: 10px;
+}
+body #outer-div #inner-div #body .input1 input{
+    border-radius: 7px;
+}
+body #outer-div #inner-div #body #input3 input{
+    width:100%;
+    background-color:  blue;
+    border-radius: 10px;
+    border: dotted red;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image: url(/6866180_preview.png);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+ 
+}
+
+body #outer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #outer-div #inner-div{
+    height: 350px;
+    width: 350px;
+    margin-top: 150px;
+}
+
+body #outer-div #inner-div #header{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+body #outer-div #inner-div .content input{
+    width: 80%;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 15px;
+   
+}
+
+body #outer-div #inner-div #para{
+    margin-left: 23px;
+    margin-top: 10px;
+    color: white;
+}
+
+body #outer-div #inner-div #para1{
+    color: white;
+    float: left;
+    margin-left: 250px;
+    margin-top: -20px;
+}
+body #outer-div #inner-div #para1 #link{
+    color: white;
+    text-decoration: none;
+}
+
+body #outer-div #inner-div #Signup input{
+    width: 85%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color:#a6a3d2;
+    color: white;
+
+}

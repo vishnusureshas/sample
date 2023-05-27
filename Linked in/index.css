@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+body #outer-div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+body #outer-div #inner-div{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin-top: 100px;
+    
+}
+
+body #outer-div #inner-div #header{
+    margin-left: 30px;
+}
+
+body #outer-div #inner-div .content input{
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+body #outer-div #inner-div #para{
+    margin-left: 25px;
+    color: blue;
+}
+
+body #outer-div #inner-div .signup input{
+    width: 82%;
+    margin-left: 25px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+body #outer-div #inner-div .para1{
+    margin-left: 25px;
+}
+
+body #outer-div #inner-div .signin input{
+    width: 82%;
+    margin-left: 25px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+

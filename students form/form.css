@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(211, 109, 109);
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    }
+    
+body #outer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+body #outer-div #inner-div{
+     width: 95%;
+    height: 350px;
+    background-color: aquamarine;
+    margin-top: 150px;
+    }
+  
+
+
+    body #outer-div #inner-div .user{
+        margin-left: 55px;
+    }
+    body #outer-div #inner-div .content input{ 
+        width: 90%; 
+        height: 35px;
+        margin-left: 55px;
+        border-color: green;
+    } 
+
+    body #outer-div #inner-div .submit input{
+        width: 90%; 
+        height: 40px;
+        margin-left: 55px;
+        border-color: rgb(100, 207, 100);
+        margin-top: 23px;
+        color:yellow;
+        background-color: green;
+    }
+
+    body #outer-div #inner-div .cancel input{
+        color:yellow;
+        background-color: green;
+        margin-left: 115px;
+        height: 35px;
+        margin-top: -40px; 
+    }
+
+    body #outer-div #inner-div .remem {
+        margin-left: 55px;
+        margin-top: 20px;
+       
+    }
